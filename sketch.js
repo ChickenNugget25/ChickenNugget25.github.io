@@ -6,6 +6,7 @@ function preload() {
 
 function setup() {
 	createCanvas(windowWidth, windowHeight,'WebGL');
+  console.log("here");
 }
 
 function draw() {
