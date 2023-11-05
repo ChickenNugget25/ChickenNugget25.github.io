@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
 	background(0);
-  scale(0.05);
+  scale(5);
   rotateX(frameCount * 0.01);
   model(modelObject);
 }
