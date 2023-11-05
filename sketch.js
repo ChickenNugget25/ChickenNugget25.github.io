@@ -1,7 +1,7 @@
 let model;
 
 function preload() {
-  model = loadModel('assets/octahedron.obj');
+  model = loadModel('cube.obj');
 }
 
 function setup() {
@@ -10,6 +10,7 @@ function setup() {
 
 function draw() {
 	background(0);
-    rotateX(frameCount * 0.01);
-    model(model);
+  scale(0.05);
+  rotateX(frameCount * 0.01);
+  model(model);
 }
